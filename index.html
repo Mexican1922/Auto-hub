@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto-Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Latest Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="navbar-brand"><img src="Images/logo.png" alt="Logo Icon"></a>
+        </div>
+
+
+        <!-- Collapsible Search -->
+        <input type="checkbox" id="search-toggle">
+        <label for="search-toggle" class="search-icon-mobile">
+            <i class="fa fa-search"></i>
+        </label>
+
+
+        <!-- Search Bar -->
+        <div class="navbar-center">
+            <div class="search-bar-container">
+                <i class="fa fa-search search-icon"></i>
+                <input type="text" placeholder="Search products" class="search-input">
+            </div>
+        </div>
+
+        <!-- Hamburger Menu (hidden on desktop) -->
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <div class="navbar-right">
+            <ul class="navbar-links">
+                <li><a href="index.html" class="active-link">HOME <span class="active-dot"></span></a></li>
+                <li><a href="products.html">PRODUCTS</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li class="dropdown">
+                    <a href="#">PAGES <i class="fa fa-caret-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="services.html">Services</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <a href="contact.html" class="contact-technicians-btn">CONTACT TECHNICIANS</a>
+        </div>
+    </nav>
+
+    <div class="overlay"></div>
+
+    <header class="hero">
+
+        <!-- Slide radio toggles -->
+        <input type="radio" name="slider" id="slide1" checked>
+        <input type="radio" name="slider" id="slide2">
+
+        <!-- Slides wrapper -->
+        <div class="slides">
+        <!-- Slide 1 -->
+        <div class="slide">
+            <div class="slide-left">
+            <h1>Fast & Reliable Car Services</h1>
+            <p>Get the best automotive solutions at your doorstep with 24/7 support.</p>
+            <a href="products.html">Get Started</a>
+            <a href="about.html">Learn More</a>
+            <div class="call-center">
+                <img src="Images/Frame-10.png" alt="Call Icon">
+                <span>Call Center: <span style="color: #ff2e00;">+234 801 234 5678</span></span>
+            </div>
+            </div>
+            <div class="slide-right">
+            <img src="Images/slide-1.png" alt="Car">
+            </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="slide">
+            <div class="slide-left">
+            <h1>Professional Technicians</h1>
+            <p>Our experts ensure top-notch service and customer satisfaction.</p>
+            <a href="products.html">Book Now</a>
+            <a href="contact.html">Contact Us</a>
+            <div class="call-center">
+                <img src="Images/Frame-10.png" alt="Call Icon">
+                <span><span style="color: #ff2e00;">24/7</span> Support Available</span>
+            </div>
+            </div>
+            <div class="slide-right">
+            <img src="Images/vollx.png" alt="Car">
+            </div>
+        </div>
+        </div>
+
+        <!-- Arrows -->
+        <div class="arrows">
+            <label for="slide1" class="arrow left">&#10094;</label>
+            <label for="slide2" class="arrow right">&#10095;</label>
+            <label for="slide1" class="arrow left">&#10095;</label>
+            <label for="slide2" class="arrow right">&#10095;</label>
+        </div>
+
+        <!-- Navigation dots -->
+        <div class="nav-dots">
+        <label for="slide1"></label>
+        <label for="slide2"></label>
+        </div>
+    </header>
+
+    <section class="products_section">
+        <div class="product_header">
+            <div>
+            <h6 class="section-title">FEATURED PRODUCTS</h6>
+            <h1><span>POPULAR</span> <span style="color: #fff;">PRODUCTS</span></h1>
+            </div>
+            <a href="products.html">EXPLORE ALL</a>
+        </div>
+
+        <div class="product-carousel">
+            <div class="carousel-wrapper">
+              <!-- <button class="move left">&#10094;</button> -->
+              <div class="carousel">
+      
+                <!-- Product 1 -->
+                <div class="card">
+                  <div class="image-wrapper">
+                  <img src="images/p10.jpg" alt="BMW Air Filter">
+                  <a href="wishlist.html" class="wishlist">♥</a>
+                  <h3 class="overlay">BMW Air Filter</h3>
+                  </div>
+                  <h3>BMW Air Filter</h3>
+                  <p>Parts</p>
+                  <div class="price-cart">
+                    <span>$48</span>
+                    <a href="#">🛒 Add to Cart</a>
+                  </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="card">
+                  <div class="image-wrapper">
+                  <img src="images/p12.jpg" alt="XTRA Break Pads">
+                  <a href="wishlist.html" class="wishlist">♥</a>
+                  <h3 class="overlay">XTRA Break Pads</h3>
+                  </div>
+                  <h3>XTRA Break Pads</h3>
+                  <p>Parts</p>
+                  <div class="price-cart">
+                    <span>$99</span>
+                    <a href="#">🛒 Add to Cart</a>
+                  </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="card">
+                    <div class="image-wrapper">
+                  <img src="images/p11.jpg" alt="BMW X4 Alternator">
+                  <a href="wishlist.html" class="wishlist">♥</a>
+                  <h3 class="overlay">BMW X4 Alternator</h3>
+                  </div>
+                  <h3>BMW X4 Alternator</h3>
+                  <p>Parts</p>
+                  <div class="price-cart">
+                    <span>$89</span>
+                    <a href="#">🛒 Add to Cart</a>
+                  </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="card">
+                   <div class="image-wrapper"> 
+                  <img src="images/p9.jpg" alt="BMW Boosted Engine">
+                  <a href="wishlist.html" class="wishlist">♥</a>
+                  <h3 class="overlay">BMW Boosted Engine</h3>
+                  </div>
+                  <h3>BMW Boosted Engine</h3>
+                  <p>Accessories</p>
+                  <div class="price-cart">
+                    <span>$117</span>
+                    <a href="#">🛒 Add to Cart</a>
+                  </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="card">
+                    <div class="image-wrapper">
+                  <img src="images/product2-1 (1).jpg" alt="Car Battery">
+                  <a href="wishlist.html" class="wishlist">♥</a>
+                  <h3 class="overlay">Car Battery</h3>
+                  </div>
+                  <h3>Car Battery</h3>
+                  <p>Parts</p>
+                  <div class="price-cart">
+                    <span>$120</span>
+                    <a href="#">🛒 Add to Cart</a>
+                  </div>
+                </div>
+
+                <!-- Product 6 -->
+                <!-- <div class="card">
+                  <img src="images/product1-1 (1).jpg" alt="Suspension Kit">
+                  <h3>Suspension Kit</h3>
+                  <p>Accessories</p>
+                  <div class="price-cart">
+                    <span>$210</span>
+                    <a href="#">🛒 Add to Cart</a>
+                  </div>
+                </div> -->
+
+              </div>
+              <!-- <button class="move right">&#10095;</button> -->
+            </div>
+        </div>
+
+          
+
+    </section>
+
+    <section class="product_category">
+        <div class="slides">
+            <!-- Slide 1 -->
+            <div class="category-slide">
+                <h6 class="category-title">PRODUCTS CATEGORIES</h6>
+                <img src="Images/image-2.png" alt="Engine Components">
+                <h1>ENGINE COMPONENTS</h1>
+                 <p>From engine components to braking systems, we offer top-notch <br>
+                parts that meet the highest standards of quality and duraility.</p>
+                <a href="products.html" class="cta-btn">EXPLORE AUTO PARTS</a>
+            </div>
+            <!-- Slide 2 -->
+            <!-- <div class="category-slide">
+                <h6 class="category-title">PRODUCTS CATEGORIES</h6>
+                <img src="Images/package1-1.jpg" alt="Vahicle Auto Transmission Image">
+                <h1>ELECTRICAL PARTS</h1>
+                 <p>From engine components to braking systems, we offer top-notch <br>
+                parts that meet the highest standards of quality and duraility.</p>
+
+                <a href="products.html" class="cta-btn">EXPLORE AUTO PARTS</a>
+            </div> -->
+            
+            <!-- Slide 3 -->
+            <div class="category-slide">
+                <h6 class="category-title">PRODUCTS CATEGORIES</h6>
+                <img src="Images/catalytic.png" alt="Exhaust Image">
+                <h1>EXHAUST SYSTEM</h1>
+                 <p>From engine components to braking systems, we offer top-notch <br>
+                parts that meet the highest standards of quality and duraility.</p>
+                <a href="products.html" class="cta-btn">EXPLORE AUTO PARTS</a>
+            </div>
+            
+            <!-- Slide 4 -->
+            <div class="category-slide">
+                <h6 class="category-title">PRODUCTS CATEGORIES</h6>
+                <img src="Images/auto-transmission.png" alt="Auto Transmission Image">
+                <h1>TRANSMISSION PARTS</h1>
+              <p>From engine components to braking systems, we offer top-notch <br>
+                parts that meet the highest standards of quality and duraility.</p>
+                <a href="products.html" class="cta-btn">EXPLORE AUTO PARTS</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="product-brand">
+            <div>
+               <h6 class="brand-title">PRODUCTS BRANDS</h6>
+            </div>
+            <div>
+               <img src="Images/l6-1.png" alt="LOGO Image">
+            </div>
+            <div>
+                <img src="Images/l5-1.png" alt="Logo Image">
+            </div>
+            <div>
+                <img src="Images/l4-1.png" alt="Logo Image">
+            </div>
+            <div>
+               <img src="Images/l3-1.png" alt="Logo Image">
+            </div>
+            <div>
+               <img src="Images/l10.png" alt="Logo Image">
+            </div>    
+        </div>
+        <div class="brand-info">
+        <div>
+            <img src="Images/car.png" alt="Car Images">
+        </div>
+        <div class="text">
+           <h6 class="brand-title"><span style="color: #fff;">PRODUCTS BRANDS</span></h6>
+           <h3 style="color: #fff;">
+            <span class="quote-mark" style="color: #ff2e00;">“</span>
+            I’ve been a loyal customer of AutoParts Haven for years now.
+            Their wide range of products, excellent customer service,
+            and fast shipping have never failed to impress me.
+           </h3>
+        </div>
+        </div>
+    </section>
+
+    <section class="offer-section">
+        <div class="offer">
+           <h6 class="offer-title">PRODUCTS WITH MONTHLY DISCOUNTS</h6>
+           <h1><span  style="color: #ff2e00;">SPECIAL</span> PRODUCT OFFERS</h1>
+        </div>
+        <div class="product-carousel">
+
+          <div class="carousel-wrapper">
+
+            <!-- Product 1 -->
+            <div class="product-card">
+              <div class="product-image">
+                <img src="Images/product4-1.jpg" alt="Child Car Seat">
+                <span class="product-tag">Car & Auto Parts 35</span>
+                <div class="hover-info">Child Car Seat</div>
+                <div class="product-icons">
+                  <a href="wishlist.html" class="wishlist-link">♥</a>
+                  <button>⇄</button>
+                  
+                </div>
+              </div>
+              <p class="product-category">Accessories</p>
+              <div class="product-price">$35</div>
+              <button class="add-to-cart">🛒 ADD TO CART</button>
+            </div>
+        
+            <!-- Product 2 -->
+            <div class="product-card">
+              <div class="product-image">
+                <img src="Images/product7-1 (1).jpg" alt="Piston & Crankshaft">
+                <div class="hover-info">Piston & Crankshaft</div>
+                <div class="product-icons">
+                  <a href="wishlist.html" class="wishlist-link">♥</a>
+                  <button>⇄</button>
+                  
+                </div>
+              </div>
+              <p class="product-category">Parts</p>
+              <div class="product-price">$20</div>
+              <button class="add-to-cart">🛒 ADD TO CART</button>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+              <div class="product-image">
+                <img src="Images/package1-1.jpg" alt="Disc Brake">
+                <div class="hover-info">Disc Brake</div>
+                <span class="discount-badge">20%</span>
+                <div class="product-icons">
+                  <a href="wishlist.html" class="wishlist-link">♥</a>
+                  <button>⇄</button>
+                  
+                </div>
+              </div>
+              <p class="product-category">Tools</p>
+              <div class="product-price">
+                <span class="old-price">$15</span> $12
+              </div>
+              <button class="add-to-cart">🛒 ADD TO CART</button>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+              <div class="product-image">
+                <img src="Images/package3-1.jpg" alt="Tire Pressure Gauge">
+                <div class="hover-info">Car Seat</div>
+                <div class="product-icons">
+                  <a href="wishlist.html" class="wishlist-link">♥</a>
+                  <button>⇄</button>
+                  
+                </div>
+              </div>
+              <p class="product-category">Accessories</p>
+              <div class="product-price">$35</div>
+              <button class="add-to-cart">🛒 ADD TO CART</button>
+            </div>
+
+          </div>
+
+          <!-- Explore Button -->
+          <div class="explore-btn">
+            <a href="products.html" class="explore-link">EXPLORE MORE PRODUCTS</a>
+          </div>
+        </div>
+
+    </section>
+    <!-- Hero Section -->
+    <section class="canvas">
+      <div class="canvas-container">
+        <!-- Tagline -->
+        <p class="tagline">
+          <span class="dot"></span>
+          START SHOPPING WITH TOP DISCOUNTS
+        </p>
+
+        <!-- Headline -->
+        <h1>
+          Get <span class="highlight">20% Discount</span> <br>
+          on your first purchase
+        </h1>
+
+        <!-- CTA -->
+        <a href="products.html" class="cta-btn">
+          <span class="icon">🛒</span>
+          EXPLORE AUTO PARTS
+        </a>
+      </div>
+    </section>
+
+    <section> 
+  <div class="blog-container">
+    <!-- Tagline -->
+    <p class="tag">
+      <span class="dot"></span>
+      NEW AND UPDATES HUB
+    </p>
+    <!-- Headline -->
+    <h1><span style="color: #ff2e00;">ARTICLES</span> & BLOG POSTS</h1>
+  </div>
+
+  <div class="blog-posts-section">
+
+    <!-- Post Card 1 -->
+    <div class="post-card">
+      <a href="blog.html#best-tires-link" class="post-link">
+        <div class="post-image-wrapper">
+          <img src="Images/p5-1.jpg" alt="Electric car charging in winter">
+          <div class="overlay">
+            <i class="fa fa-link overlay-icon"></i>
+          </div>
+        </div>
+        <div class="post-info">
+          <div class="post-meta">
+            <span class="category tutorial">TUTORIAL: UPDATES</span>
+            <span class="black-dot"></span>
+            <span class="date">10 JUNE 2024</span>
+          </div>
+          <h3 class="post-title">How to Choose the Best Tires for Your Vehicle</h3>
+        </div>
+      </a>
+      <a href="blog.html#best-tires-link" class="read-more-btn">READ MORE</a>
+    </div>
+
+    <!-- Post Card 2 -->
+    <div class="post-card">
+      <a href="blog.html#replace-brake-pads-link" class="post-link">
+        <div class="post-image-wrapper">
+          <img src="Images/p4-1-1.jpg" alt="Car with unique doors open">
+          <div class="overlay">
+            <i class="fa fa-link overlay-icon"></i>
+          </div>
+        </div>
+        <div class="post-info">
+          <div class="post-meta">
+            <span class="category interview">INTERVIEW: NEWS</span>
+            <span class="black-dot"></span>
+            <span class="date">10 JUNE 2024</span>
+          </div>
+          <h3 class="post-title">5 Signs It's Time to Replace Your Brake Pads</h3>
+        </div>
+      </a>
+      <a href="blog.html#replace-brake-pads-link" class="read-more-btn">READ MORE</a>
+    </div>
+
+    <!-- Post Card 3 -->
+    <div class="post-card">
+      <a href="blog.html#auto-accessories-link" class="post-link">
+        <div class="post-image-wrapper">
+          <img src="Images/p1-1.jpg" alt="Couple holding car keys, smiling">
+          <div class="overlay">
+            <i class="fa fa-link overlay-icon"></i>
+          </div>
+        </div>
+        <div class="post-info">
+          <div class="post-meta">
+            <span class="category uncategorized">UNCATEGORIZED</span>
+            <span class="black-dot"></span>
+            <span class="date">10 JUNE 2024</span>
+          </div>
+          <h3 class="post-title">Must Have Auto Accessories for a Smoother Ride</h3>
+        </div>
+      </a>
+      <a href="blog.html#auto-accessories-link" class="read-more-btn">READ MORE</a>
+    </div>
+
+    <!-- Explore More -->
+    <div class="explore-more">
+      <a href="blog.html" class="explore-more-btn">EXPLORE MORE POSTS</a>
+    </div>
+  </div>
+</section>
+    
+
+<footer class="footer">
+  <div class="footer-grid">
+    <!-- Newsletter / Brand -->
+    <div class="brand-section">
+        <span class="footer-dot"></span>
+        <span class="footer-title">NEWSLETTER</span>
+      <div class="brand">
+        <span class="sub">SUBSCRIBE TO AUTOHUB</span>
+      </div>
+      <div style="height:14px"></div>
+      <div class="newsletter" aria-label="Subscribe form">
+        <input type="email" placeholder="Email address" aria-label="Email address" />
+        <button type="button">SUBSCRIBE</button>
+      </div>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="section links">
+      <h4>QUICK LINKS</h4>
+      <a href="#">About us</a>
+      <a href="#">Products</a>
+      <a href="#">Support Center</a>
+      <a href="#">Refund Policy</a>
+      <a href="#">Locations</a>
+      <a href="#">Contact Us</a>
+    </div>
+
+    <!-- Contact -->
+    <div class="section contact">
+      <h4>CONTACT US</h4>
+      <div>53 Rue Jean-Jacques Rousseau,<br>75001 Paris, France</div>
+      <div>Email: <a href="mailto:info@autohub.com">info@autohub.com</a></div>
+      <div>Phone: +1 708-765-5249</div>
+    </div>
+  </div>
+
+  <div class="copyright" aria-label="Copyright">
+    <div>© Copyright 2025. All Rights Reserved, Proudly powered by Valentine 🤞😎🤞</div>
+    <div style="display:flex; gap:12px; color: #fff; margin-left: 130px;">
+      <a href="#">Privacy Policy</a>
+      <a href="https://wa.me/9015599954" target="_blank" rel="noopener">Contact Us</a>
+    </div>
+  </div>
+</footer>
+
+
+
+
+    <!-- Back to Top -->
+          <a href="#top" class="back-to-top">&#8679;</a>
+</body>
+</html>

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto-Hub</title>
+    <link rel="stylesheet" href="services.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Latest Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <nav class="navbar">
+
+
+        <div class="navbar-left">
+            <a href="index.html" class="navbar-brand"><img src="Images/logo.png" alt="Logo Icon"></a>
+        </div>
+
+
+        <!-- Collapsible Search -->
+        <input type="checkbox" id="search-toggle">
+        <label for="search-toggle" class="search-icon-mobile">
+            <i class="fa fa-search"></i>
+        </label>
+
+
+        <!-- Search Bar -->
+        <div class="navbar-center">
+            <div class="search-bar-container">
+                <i class="fa fa-search search-icon"></i>
+                <input type="text" placeholder="Search products" class="search-input">
+            </div>
+        </div>
+
+        <!-- Hamburger Menu (hidden on desktop) -->
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            </span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <div class="navbar-right">
+            <ul class="navbar-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="products.html">PRODUCTS</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li class="dropdown">
+                    <a href="#" class="active-link">PAGES <span class="active-dot"></span> <i class="fa fa-caret-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="services.html">Services</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <a href="contact.html" class="contact-technicians-btn">CONTACT TECHNICIANS</a>
+        </div>
+    </nav>
+
+    <header>
+        <div class="header-wrapper">
+            <img src="Images/br-new.jpg" alt="Car Image ">
+            <div class="header-overlay"></div> <!-- dark overlay -->
+            <div class="header_title">
+            <h4>BLOG</h4>
+
+            <p><a href="index.html">HOME</a> >> SERVICES</p>
+            </div>
+        </div>
+    </header>
+
+  <section class="wrapper">
+    <!-- Header bar -->
+    <div class="brand" aria-label="Popular Car Services">
+      <h4><span class="brandy"></span> ASK US TODAY</h4>
+      <h1 style="font-weight:800; color:#111;"><span style="color: #ff2e00;">POPULAR</span> CAR SERVICES</h1>
+      <span class="sub" style="margin-left:8px; color:#888;">&nbsp;</span>
+    </div>
+
+    <!-- Main content: left large image and right grid of service cards -->
+    <div class="content">
+      <!-- Left large image panel -->
+      <div class="hero" aria-label="Car engine image">
+        <img src="Images/s5.jpg" alt="Car engine close-up" />
+      </div>
+
+      <!-- Right: 4 service tiles -->
+      <div class="tiles" aria-label="Service options">
+        <!-- Engine Diagnostics -->
+        <div class="tile" role="group" aria-label="Engine Diagnostics">
+          <div>
+            <div class="icon" aria-hidden="true">🔧</div>
+            <h3>Engine Diagnostics</h3>
+            <p>We are using advanced tools and certified mechanics to keep engines running smoothly</p>
+          </div>
+          <span class="order">Order now</span>
+        </div>
+
+        <!-- Air Conditioning Repair -->
+        <div class="tile" role="group" aria-label="Air Conditioning Repair">
+          <div>
+            <div class="icon" aria-hidden="true">❄️</div>
+            <h3>Air Conditioning Repair</h3>
+            <p>Keep your cabin cool with A/C diagnostics, repairs, and refrigerant recharge services</p>
+          </div>
+          <span class="order">Order now</span>
+        </div>
+
+        <!-- Battery Replacement -->
+        <div class="tile" role="group" aria-label="Battery Replacement">
+          <div>
+            <div class="icon" aria-hidden="true">🔋</div>
+            <h3>Battery Replacement</h3>
+            <p>Testing, servicing, and replacing car batteries to prevent unexpected breakdowns</p>
+          </div>
+          <span class="order">Order now</span>
+        </div>
+
+        <!-- Brake System Inspection -->
+        <div class="tile" role="group" aria-label="Brake System Inspection">
+          <div>
+            <div class="icon" aria-hidden="true">🧰</div>
+            <h3>Brake System Inspection</h3>
+            <p>Brake fluid checks to ensure your safety with responsive and effective braking</p>
+          </div>
+          <span class="order">Order now</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <section class="panel">
+  <!-- Left panel: hero text -->
+  <div class="left" aria-label="Introduction">
+    <div class="left_header">
+      <h4><span class="part_dot"></span>AUTO PARTS PROCESS</h4>
+      <h2><span class="highlight">HOW IT</span> WORKS?</h2>
+    </div>
+    <p>
+      The auto parts industry operates by supplying essential vehicle components to both repair shops and individual consumers. 
+      When a vehicle requires maintenance or repair, technicians diagnose the issue and identify the specific parts needed whether 
+      it's for the engine, brakes, suspension, or other systems.
+    </p>
+  </div>
+
+  <!-- Right panel: three feature cards -->
+  <aside class="right" aria-label="Process steps">
+    <div class="card" role="article" aria-label="Check Problems">
+      <div class="icon check" title="Check Problems">☰</div>
+      <div>
+        <h3>CHECK PROBLEMS</h3>
+        <p>We will analyze your car problems</p>
+      </div>
+    </div>
+
+    <div class="card" role="article" aria-label="Find Auto Parts">
+      <div class="icon find" title="Find Auto Parts">🧭</div>
+      <div>
+        <h3>FIND AUTO PARTS</h3>
+        <p>Easily find and order auto parts products</p>
+      </div>
+    </div>
+
+    <div class="card" role="article" aria-label="Receive Products">
+      <div class="icon receive" title="Receive Products">🚚</div>
+      <div>
+        <h3>RECEIVE PRODUCTS</h3>
+        <p>Fast products delivery to your location</p>
+      </div>
+    </div>
+  </aside>
+</section>
+
+<!-- <section class="prizes">
+    <div class="price_header">
+      <h4><span class="auto_dot"></span>OUR POPULAR SERVICES</h4>
+      <h1><span style="color: #ff2e00;">PRICING</span> OF SERVICES</h1>
+    </div>
+
+</section> -->
+<section class="pricing">
+    <h4><span class="auto_dot"></span>OUR POPULAR SERVICES</h4>
+    <h2><span>PRICING</span> OF SERVICES</h2>
+
+    <div class="pricing-cards">
+      <!-- Package A -->
+      <div class="price_card">
+        <h5>Package A</h5>
+        <div class="price-label">ONLY</div>
+        <div class="price">$29.00 <span>/MO</span></div>
+        <ul>
+          <li>Transmission Repair</li>
+          <li class="unavailable">Clutch Repair</li>
+          <li class="unavailable">Wheel Alignment</li>
+          <li class="unavailable">Battery Installation</li>
+        </ul>
+        <button>Order Now</button>
+      </div>
+
+      <!-- Package B -->
+      <div class="price_card active">
+        <h5>Package B</h5>
+        <div class="price-label">ONLY</div>
+        <div class="price">$49.00 <span>/MO</span></div>
+        <ul>
+          <li>Transmission Repair</li>
+          <li>Clutch Repair</li>
+          <li class="unavailable">Wheel Alignment</li>
+          <li class="unavailable">Battery Installation</li>
+        </ul>
+        <button>Order Now</button>
+      </div>
+
+      <!-- Package C -->
+      <div class="price_card">
+        <h5>Package C</h5>
+        <div class="price-label">ONLY</div>
+        <div class="price">$69.00 <span>/MO</span></div>
+        <ul>
+          <li>Transmission Repair</li>
+          <li>Clutch Repair</li>
+          <li>Wheel Alignment</li>
+          <li class="unavailable">Battery Installation</li>
+        </ul>
+        <button>Order Now</button>
+      </div>
+
+      <!-- Package D -->
+      <div class="price_card">
+        <h5>Package D</h5>
+        <div class="price-label">ONLY</div>
+        <div class="price">$99.00 <span>/MO</span></div>
+        <ul>
+          <li>Transmission Repair</li>
+          <li>Clutch Repair</li>
+          <li>Wheel Alignment</li>
+          <li>Battery Installation</li>
+        </ul>
+        <button>Order Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hero Section -->
+    <section class="canvas">
+      <div class="canvas-container">
+        <!-- Tagline -->
+        <p class="tagline">
+          <span class="canva"></span>
+          WE HAVE EVERYTHING
+        </p>
+
+        <!-- Headline -->
+        <h1>
+          Ready to Get Best <br>
+          <span class="canva_title">Auto Parts</span> at your Location
+        </h1>
+
+        <!-- CTA -->
+        <a href="products.html" class="cta-btn">
+          <!-- <span class="icon">🛒</span> -->
+          PRODUCTS COLLECTIONS
+        </a>
+      </div>
+    </section>
+
+    <footer class="footer">
+  <div class="footer-grid">
+    <!-- Newsletter / Brand -->
+    <div class="brand-section">
+        <span class="footer-dot"></span>
+        <span class="footer-title">NEWSLETTER</span>
+      <div class="brand">
+        <span class="sub">SUBSCRIBE TO AUTOHUB</span>
+      </div>
+      <div style="height:14px"></div>
+      <div class="newsletter" aria-label="Subscribe form">
+        <input type="email" placeholder="Email address" aria-label="Email address" />
+        <button type="button">SUBSCRIBE</button>
+      </div>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="section links">
+      <h4>QUICK LINKS</h4>
+      <a href="#">About us</a>
+      <a href="#">Products</a>
+      <a href="#">Support Center</a>
+      <a href="#">Refund Policy</a>
+      <a href="#">Locations</a>
+      <a href="#">Contact Us</a>
+    </div>
+
+    <!-- Contact -->
+    <div class="section contact">
+      <h4>CONTACT US</h4>
+      <div>53 Rue Jean-Jacques Rousseau,<br>75001 Paris, France</div>
+      <div>Email: <a href="mailto:info@autohub.com">info@autohub.com</a></div>
+      <div>Phone: +1 708-765-5249</div>
+    </div>
+  </div>
+
+  <div class="copyright" aria-label="Copyright">
+    <div>© Copyright 2025. All Rights Reserved, Proudly powered by Valentine 🤞😎🤞</div>
+    <div style="display:flex; gap:12px; color: #fff; margin-left: 130px;">
+      <a href="#">Privacy Policy</a>
+      <a href="https://wa.me/9015599954" target="_blank" rel="noopener">Contact Us</a>
+    </div>
+  </div>
+</footer>
+
+
+
+
+    <!-- Back to Top -->
+          <a href="#top" class="back-to-top">&#8679;</a>
+
+
+    
+</body>
+</html>

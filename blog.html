@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto-Hub</title>
+    <link rel="stylesheet" href="blog.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Latest Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="navbar-brand"><img src="Images/logo.png" alt="Logo Icon"></a>
+        </div>
+
+
+        <!-- Collapsible Search -->
+        <input type="checkbox" id="search-toggle">
+        <label for="search-toggle" class="search-icon-mobile">
+            <i class="fa fa-search"></i>
+        </label>
+
+
+        <!-- Search Bar -->
+        <div class="navbar-center">
+            <div class="search-bar-container">
+                <i class="fa fa-search search-icon"></i>
+                <input type="text" placeholder="Search products" class="search-input">
+            </div>
+        </div>
+
+        <!-- Hamburger Menu (hidden on desktop) -->
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <div class="navbar-right">
+            <ul class="navbar-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="products.html">PRODUCTS</a></li>
+                <li><a href="blog.html" class="active-link">BLOG <span class="active-dot"></span></a></li>
+                <li class="dropdown">
+                    <a href="#">PAGES <i class="fa fa-caret-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="services.html">Services</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <a href="contact.html" class="contact-technicians-btn">CONTACT TECHNICIANS</a>
+        </div>
+    </nav>
+
+    <div class="overlay"></div>
+    <header>
+        <div class="header-wrapper">
+            <img src="Images/br-new.jpg" alt="Car Image ">
+            <div class="header-overlay"></div> <!-- dark overlay -->
+            <div class="header_title">
+            <h4>BLOG</h4>
+
+            <p><a href="index.html">HOME</a> >> BLOG</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="blog-section">
+  <div class="blog-container">
+
+    <!-- Left Column: Blog Posts -->
+    <div class="blog-posts">
+
+      <!-- Post 1 -->
+      <div class="post-card">
+        <a href="blog.html#best-tires-link" class="post-link">
+          <div class="post-image-wrapper">
+            <img src="Images/p5-1.jpg" alt="Car Tires">
+            <div class="blog-overlay">
+              <i class="fa fa-link overlay-icon"></i>
+            </div>
+          </div>
+          <div class="post-info">
+            <h3 class="post-title">How to Choose the Best Tires for Your Vehicle</h3>
+            <span class="date">10 JUNE 2024</span>
+            <p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec sollicitudin molestie malesuada...</p>
+          </div>
+        </a>
+        <a href="blog.html#best-tires-link" class="read-more-btn">READ MORE</a>
+      </div>
+
+      <!-- Post 2 -->
+      <div class="post-card">
+        <a href="blog.html#replace-brake-pads-link" class="post-link">
+          <div class="post-image-wrapper">
+            <img src="Images/p4-1-1.jpg" alt="Brake Pads">
+            <div class="blog-overlay">
+              <i class="fa fa-link overlay-icon"></i>
+            </div>
+          </div>
+          <div class="post-info">
+            <h3 class="post-title">5 Signs It’s Time to Replace Your Brake Pads</h3>
+            <span class="date">10 JUNE 2024</span>
+            <p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec sollicitudin molestie malesuada...</p>
+          </div>
+        </a>
+        <a href="blog.html#replace-brake-pads-link" class="read-more-btn">READ MORE</a>
+      </div>
+
+      <!-- Post 3 -->
+      <div class="post-card">
+        <a href="blog.html#auto-accessories-link" class="post-link">
+          <div class="post-image-wrapper">
+            <img src="Images/p1-1.jpg" alt="Car Accessories">
+            <div class="blog-overlay">
+              <i class="fa fa-link overlay-icon"></i>
+            </div>
+          </div>
+          <div class="post-info">
+            <h3 class="post-title">Must Have Auto Accessories for a Smoother Ride</h3>
+            <span class="date">10 JUNE 2024</span>
+            <p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec sollicitudin molestie malesuada...</p>
+          </div>
+        </a>
+        <a href="blog.html#auto-accessories-link" class="read-more-btn">READ MORE</a>
+      </div>
+
+      <!-- Post 4 -->
+      <div class="post-card">
+        <a href="blog.html#engine-lifespan-link" class="post-link">
+          <div class="post-image-wrapper">
+            <img src="Images/p3-1-1.jpg" alt="Car Engine">
+            <div class="blog-overlay">
+              <i class="fa fa-link overlay-icon"></i>
+            </div>
+          </div>
+          <div class="post-info">
+            <h3 class="post-title">How to Increase the Lifespan of Your Engine</h3>
+            <span class="date">10 JUNE 2024</span>
+            <p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec sollicitudin molestie malesuada...</p>
+          </div>
+        </a>
+        <a href="blog.html#engine-lifespan-link" class="read-more-btn">READ MORE</a>
+      </div>
+
+    </div>
+
+    <!-- Right Column: Sidebar -->
+    <aside class="blog-sidebar">
+      <!-- Search -->
+      <div class="sidebar-box">
+        <form class="search-form">
+          <input type="text" placeholder="Search ...">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+
+      <!-- Tags -->
+      <div class="sidebar-box">
+        <h4>POPULAR TAGS</h4>
+        <div class="tags">
+          <a href="#">article</a>
+          <a href="#">computer</a>
+          <a href="#">developer</a>
+          <a href="#">technology</a>
+          <a href="#">tutorial</a>
+          <a href="#">famous</a>
+          <a href="#">interview</a>
+          <a href="#">it</a>
+          <a href="#">money</a>
+          <a href="#">learn</a>
+          <a href="#">photography</a>
+          <a href="#">post</a>
+          <a href="#">website</a>
+          <a href="#">tut</a>
+          <a href="#">WP</a>
+          <a href="#">seo</a>
+          <a href="#">Responsive</a>
+        </div>
+      </div>
+
+      <!-- Ads -->
+      <div class="sidebar-box">
+        <h4>ADS</h4>
+        <img src="Images/ads.jpg" alt="Advertisement">
+      </div>
+    </aside>
+  </div>
+
+  <!-- Pagination -->
+  <div class="pagination" aria-label="Pagination">
+    <a href="products.html" class="page current" aria-label="Page 1">1</a>
+    <a href="blog-page2.html" class="page " aria-label="Page 2">2</a>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer">
+  <div class="footer-grid">
+    <!-- Newsletter / Brand -->
+    <div class="brand-section">
+        <span class="footer-dot"></span>
+        <span class="footer-title">NEWSLETTER</span>
+      <div class="brand">
+        <span class="sub">SUBSCRIBE TO AUTOHUB</span>
+      </div>
+      <div style="height:14px"></div>
+      <div class="newsletter" aria-label="Subscribe form">
+        <input type="email" placeholder="Email address" aria-label="Email address" />
+        <button type="button">SUBSCRIBE</button>
+      </div>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="section links">
+      <h4>QUICK LINKS</h4>
+      <a href="#">About us</a>
+      <a href="#">Products</a>
+      <a href="#">Support Center</a>
+      <a href="#">Refund Policy</a>
+      <a href="#">Locations</a>
+      <a href="#">Contact Us</a>
+    </div>
+
+    <!-- Contact -->
+    <div class="section contact">
+      <h4>CONTACT US</h4>
+      <div>53 Rue Jean-Jacques Rousseau,<br>75001 Paris, France</div>
+      <div>Email: <a href="mailto:info@autohub.com">info@autohub.com</a></div>
+      <div>Phone: +1 708-765-5249</div>
+    </div>
+  </div>
+
+  <div class="copyright" aria-label="Copyright">
+    <div>© Copyright 2025. All Rights Reserved, Proudly powered by Valentine 🤞😎🤞</div>
+    <div style="display:flex; gap:12px; color: #fff; margin-left: 130px;">
+      <a href="#">Privacy Policy</a>
+      <a href="https://wa.me/9015599954" target="_blank" rel="noopener">Contact Us</a>
+    </div>
+  </div>
+</footer>
+
+
+
+
+    <!-- Back to Top -->
+          <a href="#top" class="back-to-top">&#8679;</a>
+
+    
+</body>
+</html>

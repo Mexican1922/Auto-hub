@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto-Hub</title>
+    <link rel="stylesheet" href="faq.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Latest Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <nav class="navbar">
+
+
+        <div class="navbar-left">
+            <a href="index.html" class="navbar-brand"><img src="Images/logo.png" alt="Logo Icon"></a>
+        </div>
+
+
+        <!-- Collapsible Search -->
+        <input type="checkbox" id="search-toggle">
+        <label for="search-toggle" class="search-icon-mobile">
+            <i class="fa fa-search"></i>
+        </label>
+
+
+        <!-- Search Bar -->
+        <div class="navbar-center">
+            <div class="search-bar-container">
+                <i class="fa fa-search search-icon"></i>
+                <input type="text" placeholder="Search products" class="search-input">
+            </div>
+        </div>
+
+        <!-- Hamburger Menu (hidden on desktop) -->
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <div class="navbar-right">
+            <ul class="navbar-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="products.html">PRODUCTS</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li class="dropdown">
+                    <a href="#" class="active-link">PAGES <span class="active-dot"></span> <i class="fa fa-caret-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="services.html">Services</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <a href="contact.html" class="contact-technicians-btn">CONTACT TECHNICIANS</a>
+        </div>
+    </nav>
+    <header>
+        <div class="header-wrapper">
+            <img src="Images/br-new.jpg" alt="Car Image ">
+            <div class="header-overlay"></div> <!-- dark overlay -->
+            <div class="header_title">
+            <h4>BLOG</h4>
+
+            <p><a href="index.html">HOME</a> >> FAQ</p>
+            </div>
+        </div>
+    </header>
+    <main>
+  <section class="faq-section">
+  <div class="faq-left">
+    <img src="images/pngegg.png" alt="Auto Parts" class="faq-image">
+
+    <div class="contact-box">
+      <h4><span class="dot"></span> ASK US TODAY</h4>
+      <form>
+        <label>Your Name (*)</label>
+        <input type="text" placeholder="Enter your name" required>
+
+        <label>Your Email (*)</label>
+        <input type="email" placeholder="Enter your email" required>
+
+        <label>Subject</label>
+        <input type="text" placeholder="Enter subject">
+
+        <label>Department</label>
+        <select>
+          <option>Business Department</option>
+          <option>Technical Support</option>
+          <option>Customer Service</option>
+        </select>
+
+        <label>Your Question</label>
+        <textarea placeholder="Type your question..."></textarea>
+
+        <button type="submit">ASK</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="faq-right">
+    <h5><span class="dot"></span> FREQUENTLY ASKED QUESTIONS</h5>
+    <h2><span class="highlight">COMMON</span> QUESTIONS</h2>
+    <p>Please read questions below and if you can not find your answer, please send us your question, we will answer you as soon as possible.</p>
+
+    <h4><span class="dot"></span> TOP COMMON QUESTIONS</h4>
+    <div class="faq-box">
+      <details>
+        <summary>What are OEM parts?</summary>
+        <p>OEM stands for “Original Equipment Manufacturer.” These parts are made by the original manufacturer and are identical to those used in the original vehicle.</p>
+      </details>
+
+      <details>
+        <summary>How do I know if a part will fit my car?</summary>
+        <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+      </details>
+
+      <details>
+        <summary>Are aftermarket parts reliable?</summary>
+        <p>Yes, many aftermarket parts are reliable but depend on brand and quality.I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </details>
+
+      <details>
+        <summary>Can I install auto parts myself?</summary>
+        <p>Some parts are DIY-friendly, but others require professional installation.I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </details>
+
+      <details>
+        <summary>How often should I replace my car’s oil filter?</summary>
+        <p>Generally, every oil change (3,000–7,500 miles).I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </details>
+
+      <details>
+        <summary>What should I do if I can’t find the part I need?</summary>
+        <p>Contact us directly and we’ll help locate it for you.I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </details>
+    </div>
+
+    <h4><span class="dot"></span> OTHER QUESTIONS & TIPS</h4>
+    <div class="faq-box">
+      <details>
+        <summary>Do you offer warranties on parts?</summary>
+        <p>Yes, all parts come with a standard warranty.I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </details>
+
+      <details>
+        <summary>Do you offer discounts for bulk purchases?</summary>
+        <p>Yes, contact our sales team for bulk pricing.I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </details>
+
+      <details>
+        <summary>What is a remanufactured part?</summary>
+        <p>It is a used part restored to like-new condition.I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </details>
+    </div>
+    </div>
+  </section>
+  <footer class="footer">
+  <div class="footer-grid">
+    <!-- Newsletter / Brand -->
+    <div class="brand-section">
+        <span class="footer-dot"></span>
+        <span class="footer-title">NEWSLETTER</span>
+      <div class="brand">
+        <span class="sub">SUBSCRIBE TO AUTOHUB</span>
+      </div>
+      <div style="height:14px"></div>
+      <div class="newsletter" aria-label="Subscribe form">
+        <input type="email" placeholder="Email address" aria-label="Email address" />
+        <button type="button">SUBSCRIBE</button>
+      </div>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="section links">
+      <h4>QUICK LINKS</h4>
+      <a href="#">About us</a>
+      <a href="#">Products</a>
+      <a href="#">Support Center</a>
+      <a href="#">Refund Policy</a>
+      <a href="#">Locations</a>
+      <a href="#">Contact Us</a>
+    </div>
+
+    <!-- Contact -->
+    <div class="section contact">
+      <h4>CONTACT US</h4>
+      <div>53 Rue Jean-Jacques Rousseau,<br>75001 Paris, France</div>
+      <div>Email: <a href="mailto:info@autohub.com">info@autohub.com</a></div>
+      <div>Phone: +1 708-765-5249</div>
+    </div>
+  </div>
+
+  <div class="copyright" aria-label="Copyright">
+    <div>© Copyright 2025. All Rights Reserved, Proudly powered by Valentine 🤞😎🤞</div>
+    <div style="display:flex; gap:12px; color: #fff; margin-left: 130px;">
+      <a href="#">Privacy Policy</a>
+      <a href="https://wa.me/9015599954" target="_blank" rel="noopener">Contact Us</a>
+    </div>
+  </div>
+</footer>
+
+
+
+
+    <!-- Back to Top -->
+          <a href="#top" class="back-to-top">&#8679;</a>
+
+</body>
+</html>
+
+    
+</body>
+</html>

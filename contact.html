@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto-Hub</title>
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Latest Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <nav class="navbar">
+
+
+        <div class="navbar-left">
+            <a href="index.html" class="navbar-brand"><img src="Images/logo.png" alt="Logo Icon"></a>
+        </div>
+
+
+        <!-- Collapsible Search -->
+        <input type="checkbox" id="search-toggle">
+        <label for="search-toggle" class="search-icon-mobile">
+            <i class="fa fa-search"></i>
+        </label>
+
+
+        <!-- Search Bar -->
+        <div class="navbar-center">
+            <div class="search-bar-container">
+                <i class="fa fa-search search-icon"></i>
+                <input type="text" placeholder="Search products" class="search-input">
+            </div>
+        </div>
+
+        <!-- Hamburger Menu (hidden on desktop) -->
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <div class="navbar-right">
+            <ul class="navbar-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="products.html">PRODUCTS</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li class="dropdown">
+                    <a href="#">PAGES <i class="fa fa-caret-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="services.html">Services</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html" class="active-link">CONTACT <span class="active-dot"></span></a></li>
+            </ul>
+            <a href="contact.html" class="contact-technicians-btn">CONTACT TECHNICIANS</a>
+        </div>
+    </nav>
+
+
+    <div class="overlay"></div>
+    <header>
+        <div class="header-wrapper">
+            <img src="Images/br-new.jpg" alt="Car Image ">
+            <div class="header-overlay"></div> <!-- dark overlay -->
+            <div class="header_title">
+            <h4>BLOG</h4>
+
+            <p><a href="index.html">HOME</a> >> CONTACT</p>
+            </div>
+        </div>
+    </header>
+    <section class="contact-section">
+    <h5>CONTACT OUR COMPANY</h5>
+    <h2><span>GET IN TOUCH</span> WITH OUR TEAM</h2>
+
+    <div class="contact-container">
+      <div class="contact-card">
+        <div class="icon-circle"><i class="fas fa-question"></i></div>
+        <h3>F.A.Q</h3>
+        <p>Frequently asked questions list</p>
+        <a href="faq.html">SEE QUESTIONS</a>
+      </div>
+
+      <div class="contact-card">
+        <div class="icon-circle"><i class="fas fa-phone"></i></div>
+        <h3>PHONE</h3>
+        <p>Contact via phone number</p>
+        <a href="tel:+17087655249">+1708-765-5249</a>
+      </div>
+
+      <div class="contact-card">
+        <div class="icon-circle"><i class="fas fa-envelope"></i></div>
+        <h3>EMAIL</h3>
+        <p>Send a direct message</p>
+        <a href="mailto:valentinechibuzor480@gmail.com">EMAIL US</a>
+      </div>
+
+      <div class="contact-card">
+        <div class="icon-circle"><i class="fas fa-map-marker-alt"></i></div>
+        <h3>LOCATIONS</h3>
+        <p>See all of our locations</p>
+        <a href="https://www.google.com/maps" target="_blank">ON GOOGLE MAPS</a>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-wrapper">
+    <!-- Left Map -->
+    <div class="map-container">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.990299210794!2d-74.01001828459346!3d40.71169947933156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a1b2d5e1233%3A0x7e1db6a17a4665c!2sFinancial%20District%2C%20New%20York%2C%20NY%2010005%2C%20USA!5e0!3m2!1sen!2sus!4v1691579200000!5m2!1sen!2sus"
+        allowfullscreen="" loading="lazy">
+      </iframe>
+    </div>
+
+    <!-- Right Form -->
+    <div class="form-container">
+      <form>
+        <input type="text" placeholder="Your Name (*)" required>
+        <input type="email" placeholder="Your Email (*)" required>
+        <input type="text" placeholder="Subject">
+        <select>
+          <option>Mechanic</option>
+          <option>Car Wash</option>
+          <option>Maintenance</option>
+        </select>
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">SEND MESSAGE</button>
+      </form>
+    </div>
+  </section>
+  
+  <footer class="footer">
+  <div class="footer-grid">
+    <!-- Newsletter / Brand -->
+    <div class="brand-section">
+        <span class="footer-dot"></span>
+        <span class="footer-title">NEWSLETTER</span>
+      <div class="brand">
+        <span class="sub">SUBSCRIBE TO AUTOHUB</span>
+      </div>
+      <div style="height:14px"></div>
+      <div class="newsletter" aria-label="Subscribe form">
+        <input type="email" placeholder="Email address" aria-label="Email address" />
+        <button type="button">SUBSCRIBE</button>
+      </div>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="section links">
+      <h4>QUICK LINKS</h4>
+      <a href="#">About us</a>
+      <a href="#">Products</a>
+      <a href="#">Support Center</a>
+      <a href="#">Refund Policy</a>
+      <a href="#">Locations</a>
+      <a href="#">Contact Us</a>
+    </div>
+
+    <!-- Contact -->
+    <div class="section contact">
+      <h4>CONTACT US</h4>
+      <div>53 Rue Jean-Jacques Rousseau,<br>75001 Paris, France</div>
+      <div>Email: <a href="mailto:info@autohub.com">info@autohub.com</a></div>
+      <div>Phone: +1 708-765-5249</div>
+    </div>
+  </div>
+
+  <div class="copyright" aria-label="Copyright">
+    <div>© Copyright 2025. All Rights Reserved, Proudly powered by Valentine 🤞😎🤞</div>
+    <div style="display:flex; gap:12px; color: #fff; margin-left: 130px;">
+      <a href="#">Privacy Policy</a>
+      <a href="https://wa.me/9015599954" target="_blank" rel="noopener">Contact Us</a>
+    </div>
+  </div>
+</footer>
+
+
+
+
+    <!-- Back to Top -->
+          <a href="#top" class="back-to-top">&#8679;</a>
+
+    
+</body>
+</html>
