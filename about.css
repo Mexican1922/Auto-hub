@@ -581,7 +581,7 @@ body {
 
 /* Hero Section */
 .canvas {
-  background: #111 url("images/vecteezy_white-sport-car-on-transparent-background-3d-rendering_25305468.png") no-repeat center/cover;
+  background: #111 url("Images/vecteezy_white-sport-car-on-transparent-background-3d-rendering_25305468.png") no-repeat center/cover;
   min-height: 80vh;
   display: flex;
   align-items: center;
@@ -953,7 +953,7 @@ body {
 }
 
 .products_section {
-  background: #111 url("images/anastas-mateev-13h3SlEk6OY-unsplash.jpg") no-repeat center/cover;
+  background: #111 url("Images/anastas-mateev-13h3SlEk6OY-unsplash.jpg") no-repeat center/cover;
   min-height: 80vh;
   color: #fff;
   position: relative;

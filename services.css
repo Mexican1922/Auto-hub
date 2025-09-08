@@ -575,7 +575,7 @@ body {
   margin-top: 30px;
   min-height: 80vh;
 
-  background: #111 url("images/vecteezy_white-sport-car-on-transparent-background-3d-rendering_25305468.png") no-repeat center/cover;
+  background: #111 url("Images/vecteezy_white-sport-car-on-transparent-background-3d-rendering_25305468.png") no-repeat center/cover;
   position: relative;
   color: #fff;
   overflow: hidden;
@@ -945,7 +945,7 @@ section.pricing h2 span {
 
 /* Hero Section */
 .canvas {
-  background: #111 url("images/albert-vincent-wu-Tbn6F4pM5hw-unsplash.jpg") no-repeat center/cover;
+  background: #111 url("Images/albert-vincent-wu-Tbn6F4pM5hw-unsplash.jpg") no-repeat center/cover;
   min-height: 80vh;
   display: flex;
   align-items: center;
