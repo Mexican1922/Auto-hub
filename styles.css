@@ -1085,23 +1085,23 @@ body {
 
 @media (max-width: 768px) {
     .text h3 {
-        margin-bottom: 200px;
-        font: 1em sans-serif;
+        margin-bottom: 50px;
+        font: 0.5em sans-serif;
     }
     .brand-title {
         font-size: 0.45rem;
     }
     .quote-mark {
-       margin-bottom: 180px;
+       margin-bottom: 40px;
    }
    .brand-title{
-    margin: 40px 40px;
+    margin: 20px 40px;
    }
    .brand-info img {
-    height: 50vh;
+    height: 30vh;
    }
    .text {
-    height: 50vh;
+    height: 30vh;
    }
 }
 
